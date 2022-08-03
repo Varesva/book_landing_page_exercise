@@ -14,3 +14,5 @@ Réalisé à partir de la vidéo de Florian Aube d'Ironhack
 ## Techno utilisées
 
 * HTML, CSS
+
+###### (date du jour : 03/08/2022)
