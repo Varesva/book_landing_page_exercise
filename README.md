@@ -9,10 +9,13 @@ Ici, l'exemple est un livre à vendre avec :
 * un texte
 * un call to action
 
-
 ## Techno utilisées
 
 * HTML/CSS
+
+## Aperçu
+
+![Aperçu responsive](./img/imgreadmedesktop.png)
 
 ## Crédits
 Réalisé à partir du replay de la vidéo de Florian Aube d'Ironhack
