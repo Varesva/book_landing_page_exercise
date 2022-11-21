@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<!-- info -->
+		<meta name="author" content="Justine 'Varesva' TAVARES VAZ"/>
+		<meta name="description" content="Landing page HTML/CSS - Varesva "/>
+		<meta name="keywords" content="HTML, CSS, responsive"/>
+		<!-- favicon -->
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">      
+		<link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
 		<!-- TITLE -->
 		<title>Landing Page : achat d'un livre</title>
 		<!-- CSS -->
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="./css/style.css"/>
+		<link rel="stylesheet" href="./css/footer.css">
 	</head>
 	<body>
-		<div class="container">
-			<div class="img-container">
-				<img
-					class="img-book"
-					src="./Gouts-d-Antilles-Recettes-et-rencontres.jpg"
-					alt="Première de couverture du livre Gout des Antilles"
-				/>
+		<main>
+			<div class="container">
+				<figure class="img-container">
+					<img class="img-book" src="./img/Gouts-d-Antilles-Recettes-et-rencontres.jpg" alt="Première de couverture du livre intitulé Gout des Antilles"/>
+				</figure>
+				<div class="content-container">
+					<h1>Available soon !</h1>
+					<h2>
+						<a href="#" class="underline">Goûts d'Antilles</a>
+					</h2>
+					<p>published by <a href="#" class="underline">Justine Publication</a></p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis in
+						aliquid repudiandae voluptates cupiditate necessitatibus natus non et
+						veniam impedit ullam qui ab quasi adipisci maxime inventore quis, nam
+						reprehenderit!
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. A aut facilis, sequi, asperiores veritatis delectus eos rem similique, labore quia beatae atque unde officiis. Repudiandae dolorum ipsam porro officia eligendi.
+					</p>
+					<div id="buy-btn">
+						<button>Pre-order for 24.50€</button>
+					</div>
+				</div>
 			</div>
-			<div class="content-container">
-				<h1>Available soon !</h1>
-				<h2>Goût d'Antilles</h2>
-
-				<p>published by Justine Publication</p>
-
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis in
-					aliquid repudiandae voluptates cupiditate necessitatibus natus non et
-					veniam impedit ullam qui ab quasi adipisci maxime inventore quis, nam
-					reprehenderit!
-				</p>
-				<button>Pre-order for 24.50€</button>
-			</div>
-		</div>
+		</main>
+		<footer id="footer">
+			<p class="copyright">
+				<span class=" sp-nowrap">
+					Tous droits réservés - &copy;<span id="year"></span>,&nbsp;
+				</span>
+				<span class="sp-nowrap">
+					<!-- LIEN PORTFOLIO -->
+					<a href="https://www.linkedin.com/in/justine-tavares-vaz-994963190" class="underline"> 
+						Justine Tavares Vaz
+					</a>
+				</span>
+			</p>
+			<p>
+				<small>
+					Fait avec passion &#128151; !
+				</small>
+			</p>
+		</footer>
+		<script src="./js/script.js"></script>
 	</body>
 </html>
